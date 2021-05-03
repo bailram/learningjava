@@ -6,11 +6,18 @@ public class PersegiPanjang {
     int lebar = 5;
 }
 ```
-Add method to the class has been created
+Add method to the class that has been created
 ```java
 ...
     public int volume(int p, int l) {
         return p*l;
     }
 ...
+```
+Add constructor to the class that has been created
+```java
+    public PersegiPanjang(int panjang, int lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
 ```
