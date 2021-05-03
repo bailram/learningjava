@@ -101,7 +101,7 @@ public class Cat implements Creature{
 
     @Override
     public void sleep() {
-        System.out.println("Banyak tidur di siang hari dan sedikit di malam hari");
+        System.out.println("Do a lot of sleep at day and little bit at night");
     }
 }
 ```
