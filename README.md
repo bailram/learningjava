@@ -71,3 +71,37 @@ public class PersegiPanjangRun extends PersegiPanjang{
     }
 }
 ```
+Do Implements with creating creature interface and creating cat class<br>
+Creature Interface
+```java
+public interface Creature {
+    public void speak();
+    public void walk();
+    public void eat();
+    public void sleep();
+}
+```
+Cat Class
+```java
+public class Cat implements Creature{
+    @Override
+    public void speak() {
+        System.out.println("Miaaww");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("Walk with catwalk style");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Eat meat, fish, and little bit grass for cleaning fur in the stomach");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("Banyak tidur di siang hari dan sedikit di malam hari");
+    }
+}
+```
