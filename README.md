@@ -21,3 +21,30 @@ Add constructor to the class that has been created
         this.lebar = lebar;
     }
 ```
+Do encapsulation to the PersegiPanjang class with changing attribute to private and add setter and getter for attribute
+```java
+    ...
+
+    private int panjang;
+    private int lebar;
+    
+    ...
+
+    public int getPanjang() {
+        return panjang;
+    }
+
+    public void setPanjang(int panjang) {
+        this.panjang = panjang;
+    }
+
+    public int getLebar() {
+        return lebar;
+    }
+
+    public void setLebar(int lebar) {
+        this.lebar = lebar;
+    }
+    
+    ...
+```
